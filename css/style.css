@@ -1,0 +1,66 @@
+/* bai-jamjuree-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../assets/fonts/bai-jamjuree-v11-latin-regular.woff2")
+    format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* bai-jamjuree-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../assets/fonts/bai-jamjuree-v11-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* bai-jamjuree-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../assets/fonts/bai-jamjuree-v11-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* bai-jamjuree-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Bai Jamjuree";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../assets/fonts/bai-jamjuree-v11-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+  --smallest-fs: 11.11px;
+  --small-fs: 13.33px;
+  --default-fs: 16px;
+  --lg-fs: 19.2px;
+  --xl-fs: 23.04px;
+  --2xl-fs: 27.65px;
+  --3xl-fs: 33.18px;
+  --4xl-fs: 39.81px;
+
+  --color-primary: hsl(171, 66%, 44%);
+  --color-secondary: hsl(233, 100%, 69%);
+  --color-heading: hsl(210, 10%, 33%);
+  --color-text: hsl(201, 11%, 66%);
+
+  --primary-ff: "Bai Jamjuree", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-ff);
+}
