@@ -24,4 +24,4 @@ $ If using IDE, turn on live server.
 
 <p> Mobile </p>
 
-![MobileLightHouse](./assets/images/desktop.png)
+![MobileLightHouse](./assets/images/mobile.png)
