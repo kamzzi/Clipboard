@@ -48,7 +48,7 @@
   --color-primary: rgb(38, 186, 164);
   --color-secondary: rgb(97, 115, 255);
   --color-heading: hsl(210, 10%, 33%);
-  --color-text: hsl(201, 11%, 66%);
+  --color-text: #727272;
   --color-neutral: hsl(255, 100%, 100%);
   --color-footer: hsl(0, 0%, 92.5%);
 
@@ -68,18 +68,6 @@ body {
   overflow-x: hidden;
 }
 
-.u-center {
-  text-align: center;
-}
-
-.u-margin-bottom-md {
-  margin-bottom: 3rem;
-}
-
-.u-margin-bottom-xl {
-  margin-bottom: 6rem;
-}
-
 .wrapper {
   --width: 71.25rem;
   max-width: var(--width);
@@ -97,6 +85,18 @@ body {
 
 .wrapper--hero {
   --width: 90rem;
+}
+
+.u-center {
+  text-align: center;
+}
+
+.u-margin-bottom-md {
+  margin-bottom: 3rem;
+}
+
+.u-margin-bottom-xl {
+  margin-bottom: 6rem;
 }
 
 .heading__primary,
