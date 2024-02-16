@@ -347,6 +347,10 @@ body {
     font-size: var(--3xl-fs);
   }
 
+  .header {
+    background-image: url("./../assets/images/bg-header-mobile.png");
+  }
+
   .companies {
     grid-template-columns: 1fr;
     gap: 4rem;
