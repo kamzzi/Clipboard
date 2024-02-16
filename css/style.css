@@ -45,8 +45,8 @@
   --3xl-fs: 33.18px;
   --4xl-fs: 39.81px;
 
-  --color-primary: rgb(38, 186, 164);
-  --color-secondary: rgb(97, 115, 255);
+  --color-primary: rgb(15, 122, 92);
+  --color-secondary: rgb(74, 74, 186);
   --color-heading: hsl(210, 10%, 33%);
   --color-text: #727272;
   --color-neutral: hsl(255, 100%, 100%);
@@ -291,12 +291,12 @@ body {
 }
 
 .btn--ios {
-  --color-shadow: #22a794;
+  --color-shadow: #0e6e53;
   background-color: var(--color-primary);
 }
 
 .btn--mac {
-  --color-shadow: #5768e6;
+  --color-shadow: #4343a7;
   background-color: var(--color-secondary);
 }
 
